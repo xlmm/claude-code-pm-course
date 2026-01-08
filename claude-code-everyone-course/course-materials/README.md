@@ -1,73 +1,64 @@
 # Claude Code for Everyone - Course Materials
 
-Welcome to the interactive Claude Code course!
+Welcome to **Claude Code for Everyone** (CC4E), a hands-on course teaching Claude Code to non-technical users.
 
 ## Getting Started
 
-**You're in the right place!** This folder contains everything you need to complete the course.
+1. Open this folder in Cursor (or VS Code)
+2. Open the terminal (Ctrl+` or View → Terminal)
+3. Type `claude` and press Enter
+4. Type `/start-1-1` to begin!
 
-### What's Included
+## Course Structure
 
-- **`lesson-modules/`** - Interactive modules taught by Claude
-- **`.claude/`** - Slash commands that power the course experience
+### Module 1: Claude Code Fundamentals
+- **1.1** Introduction - Welcome and course overview
+- **1.2** File Exploration - Navigate files and set up your workspace
+- **1.3** Working with Files - Extract, synthesize, templates, images, web
+- **1.4** Commands & Navigation - Shortcuts and power user features
+- **1.5** Agents - Parallel processing with multiple Claude instances
+- **1.6** Custom Sub-agents - Create your advisory team
+- **1.7** CLAUDE.md - Persistent project memory
+- **1.8** Power Features - Celebration and Module 2 preview
 
-### How to Start the Course
+### Module 2: Vibe Coding (Coming Soon)
+Build the Coffee Personality Quiz from scratch!
 
-**1. Make sure you're in this directory:**
-```bash
-pwd
-# Should show: .../claude-code-everyone-course
+## The Scenario
+
+You're the new manager at **Basecamp Coffee**, a regional coffee chain with a struggling loyalty program. Your job: turn it around in 3 months.
+
+Through the course, you'll:
+- Analyze the chaos you inherited
+- Discover what's wrong with the program
+- Find the solution (spoiler: it involves coffee personalities)
+- Build a prototype to save the day
+
+## Folder Structure
+
+```
+company-context/     → Background on Basecamp Coffee
+inherited-chaos/     → The mess you inherited (files to analyze)
+templates/           → Document templates
+attachments/         → Images and other assets
+organized/           → Files you'll create as you organize
+analysis/            → Analysis outputs you'll generate
+reviews/             → Feedback from sub-agents
 ```
 
-**2. Launch Claude Code:**
-```bash
-claude
-```
+## Reference Files
 
-**3. Start the first lesson:**
+Each lesson has a reference page at ccforeveryone.com with:
+- Deeper explanations
+- Additional resources
+- Troubleshooting guides
 
-Once Claude Code is running, type:
-```
-/start-1-1
-```
+## Need Help?
 
-This kicks off Module 1, Lesson 1 - Course Introduction!
+- Ask Claude! That's the whole point.
+- Check the reference files at ccforeveryone.com
+- Reach out to Carl: [X](https://x.com/carlvellotti) / [LinkedIn](https://linkedin.com/in/carlvellotti)
 
-### Course Structure
+## Created By
 
-**Module 0: Getting Started** (Prerequisites)
-- Before running this course, you should have completed Module 0 (installation and setup)
-- If you haven't installed Claude Code yet, visit: https://ccforeveryone.com/getting-started/installation
-
-**Module 1: Fundamentals** (Starts with `/start-1-1`)
-- 1.1: Course Introduction
-- 1.2: File Exploration & Visual Workspace
-- 1.3: Working with Files
-- 1.4: Commands & Navigation
-- 1.5: Agents (Parallel Processing)
-- 1.6: Custom Sub-Agents
-- 1.7: Project Memory (CLAUDE.md)
-
-**Module 2: Vibe Coding** (Coming Soon)
-- Build a real web app with Claude
-
-### Slash Commands
-
-Throughout the course, you'll use slash commands like:
-- `/start-1-1` - Start Lesson 1.1
-- `/start-1-2` - Start Lesson 1.2
-- etc.
-
-These commands are defined in the `.claude/` folder and guide you through each lesson interactively.
-
-### Need Help?
-
-- **Documentation:** https://ccforeveryone.com
-- **Issues:** https://github.com/carlvellotti/claude-code-everyone-course/issues
-- **Questions:** Ask in the course or check the website
-
-### Course Philosophy
-
-This course teaches you Claude Code **by using Claude Code**. You'll work with real files and real workflows. Claude is your guide, but you're driving the learning.
-
-Ready to start? Type `/start-1-1` in Claude Code!
+Carl Vellotti - [The Full Stack PM](https://fullstackpm.com)
