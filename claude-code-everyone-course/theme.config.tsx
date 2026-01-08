@@ -10,7 +10,7 @@ export default {
   docsRepositoryBase: 'https://github.com/carlvellotti/claude-code-everyone-course/blob/main/website',
   feedback: {
     content: 'Give Carl feedback →',
-    labels: 'feedback'
+    useLink: () => 'mailto:carl@fullstackpm.com?subject=CC4E%20Feedback'
   },
   editLink: {
     component: null
