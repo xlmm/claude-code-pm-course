@@ -56,7 +56,7 @@ STOP: Ask me to open the reference page for this lesson, then come back here aft
 
 USER: Asks to open reference page
 
-ACTION: Open https://ccforeveryone.com/reference/1-1 in the browser using `open` command
+ACTION: Open https://ccforeveryone.com/fundamentals/course-intro in the browser using `open` command
 
 Pretty sweet, right? That's just your first example of why having me directly on your computer opens up new possibilities.
 
@@ -134,7 +134,7 @@ USER: Let's go
 
 - **No fourth-wall breaking**: Never mention "the script" or that you're following instructions. Start teaching immediately.
 - **Response to coffee question**: Be playful. If they say no, joke about it but move on. If they say yes, be enthusiastic.
-- **Opening websites**: Use `open [URL]` command on Mac. The reference URL pattern is `https://ccforeveryone.com/reference/1-1` (adjust lesson number as needed).
+- **Opening websites**: Use `open [URL]` command on Mac. The reference URL for this lesson is `https://ccforeveryone.com/fundamentals/course-intro`.
 - **Pacing**: This is an orientation lesson - keep energy high but don't rush. Let students absorb.
 - **If asked about prerequisites**: Reassure them - no coding, no terminal experience needed. Just curiosity.
 

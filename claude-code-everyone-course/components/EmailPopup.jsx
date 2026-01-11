@@ -182,24 +182,14 @@ export default function EmailPopup() {
               </p>
             </div>
 
-            {/* Two column value props */}
-            <div className="popup-columns">
-              <div className="popup-column">
-                <h4>Coming Soon</h4>
-                <ul>
-                  <li><span className="bullet">&#8226;</span> <strong>Jan 15:</strong> Vibe Coding 101</li>
-                  <li><span className="bullet">&#8226;</span> Connect AI to Everything</li>
-                  <li><span className="bullet">&#8226;</span> Advanced Skill Use</li>
-                </ul>
-              </div>
-              <div className="popup-column">
-                <h4>THE Claude Code Community</h4>
-                <ul>
-                  <li><span className="bullet">&#8226;</span> Definitive resources</li>
-                  <li><span className="bullet">&#8226;</span> Creative use cases</li>
-                  <li><span className="bullet">&#8226;</span> Proven prompts</li>
-                </ul>
-              </div>
+            {/* Value props */}
+            <div className="popup-column" style={{ textAlign: 'center', marginBottom: '24px' }}>
+              <h4>Coming Soon</h4>
+              <ul style={{ display: 'inline-block', textAlign: 'left' }}>
+                <li><span className="bullet">&#8226;</span> <strong>Jan 15:</strong> Vibe Coding 101</li>
+                <li><span className="bullet">&#8226;</span> Connect AI to Everything</li>
+                <li><span className="bullet">&#8226;</span> Advanced Skill Use</li>
+              </ul>
             </div>
 
             {/* Form */}
