@@ -160,7 +160,7 @@ USER: [User types their app idea]
 
 ## The Interview
 
-ACTION: Now interview the user about their idea using the Ask User Question tool. Ask 3-4 rounds of questions covering:
+ACTION: Now interview the user about their idea using the AskUserQuestion tool (call the actual tool; never type lettered or numbered menus). Each call may author at most 4 options; the tool adds Other automatically, so never author one. Ask 3-4 rounds of questions covering:
 - Core workflow and user flow
 - UI/UX style and feel
 - Technical decisions and trade-offs
@@ -174,7 +174,7 @@ After collecting their answers, continue to the next section.
 
 ## Your Plan
 
-ACTION: Write a detailed PRD based on their answers to `ross-mike-workflows/my-plan.md` in the workspace root. Format it like the TikTok UGC example - features with tests, UI decisions, technical decisions. Never overwrite an existing file without the student's explicit approval.
+ACTION: Write a detailed PRD based on their answers to `ross-mike-workflows/my-plan.md` in the workspace root. Format it like the TikTok UGC example - features with tests, UI decisions, technical decisions. The staged my-plan.md is a placeholder meant to be filled: replace its contents. (Any OTHER existing file still needs the student's explicit approval before overwriting.)
 
 I've written your plan here: [open my plan](ross-mike-workflows/my-plan.md).
 
