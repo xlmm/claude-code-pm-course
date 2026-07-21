@@ -1,5 +1,7 @@
 # GitHub Releases Distribution Plan
 
+> **Superseded (2026-07):** Course delivery moved to the FSPM CLI (`fspm get claude-code-for-pms` from the fullstackpm.com catalog). GitHub Releases are no longer the distribution mechanism. This document is kept for historical reference only - do not implement from it.
+
 ## Executive Summary
 
 Implement GitHub Releases as the distribution mechanism for course materials. This allows versioned course downloads, clean separation of marketing site from course content, and standard open-source distribution practices.
