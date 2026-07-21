@@ -77,7 +77,11 @@ ACTION: Verify with `vercel whoami`. Report success or a concise error summary i
 
 Now let's put your quiz on the internet.
 
-ACTION: Deploy to Vercel:
+STOP: Ready to put it live?
+
+USER: Yes
+
+ACTION: Only after the student's yes, deploy to Vercel:
 
 1. Navigate to the quiz-project folder:
 ```
@@ -240,7 +244,7 @@ USER: (exits or explores)
 - User feels empowered to build more things
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

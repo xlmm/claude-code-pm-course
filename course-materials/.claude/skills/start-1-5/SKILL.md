@@ -184,7 +184,7 @@ Say: "Which sub-agent would you like to see inside? Engineer, Executive, or User
 
 **Action: Read and display the chosen sub-agent file**
 
-Read the `.claude/agents/[chosen-subagent].md` file and show the ENTIRE thing in the chat to the student.
+Read the chosen sub-agent's real staged file and show the ENTIRE thing in the chat to the student: `.claude/agents/engineer.md` for Engineer, `.claude/agents/executive.md` for Executive, or `.claude/agents/user-researcher.md` for User Researcher.
 
 **Say:**
 
@@ -331,7 +331,7 @@ Module 1.5 is successful if the student:
 **Remember: This module is about building a team. Make students feel like they now have reusable specialists they can call on anytime!**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

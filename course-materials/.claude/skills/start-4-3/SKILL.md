@@ -96,9 +96,9 @@ I'm going to start your quiz running and open it in your browser.
 
 ACTION: Run `npm run dev` in background in the quiz-project folder
 
-ACTION: Wait a few seconds for the server to start, then open `http://localhost:3000` in the browser and provide [http://localhost:3000](http://localhost:3000)
+ACTION: Read the dev server's actual reported local URL from its output. State that exact URL in prose as a clickable Markdown link, then run `open <actual-reported-url>`. The port may differ from 3000, so the reported URL always governs.
 
-Your quiz should now be open in your browser!
+Your quiz should now be open at the exact clickable URL I just reported.
 
 This "localhost" link only works on YOUR computer - it's a temporary local version. We'll make it public later when we deploy.
 
@@ -107,7 +107,7 @@ STOP: Do you see your quiz?
 USER: Yes! / [Issues]
 
 ACTION: If they have issues:
-- Browser didn't open → Provide [http://localhost:3000](http://localhost:3000)
+- Browser didn't open → Repeat the exact clickable URL reported by the running dev server
 - Build errors → inspect the collapsed process output, fix errors, and summarize the issue in prose
 - Blank page → Check for JavaScript errors in browser console
 
@@ -205,13 +205,13 @@ USER: Let's do GitHub
 
 - Next.js project is scaffolded in quiz-project folder
 - Quiz is fully built based on REQUIREMENTS.md
-- Dev server is running and quiz is viewable at localhost:3000
+- Dev server is running and the quiz is viewable at the actual URL reported by the server
 - User has done at least 1-2 iterations
 - User is satisfied with how their quiz looks
 - User is ready for GitHub
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

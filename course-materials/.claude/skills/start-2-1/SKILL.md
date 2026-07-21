@@ -85,7 +85,7 @@ Ready to dive in?"
 
 **ACTION:**
 
-Display the section headers from `Carls-PRD-Template.md`:
+Display the section headers from `prd-templates/Carls-PRD-Template.md`:
 - Problem Alignment
   - Problem & Opportunity
   - High Level Approach
@@ -121,7 +121,7 @@ Now let me show you the other option..."
 
 **ACTION:**
 
-Display the structure from `Lennys-PRD-Template.md`
+Display the structure from `prd-templates/Lennys-PRD-Template.md`
 
 **Present it like this:**
 
@@ -204,7 +204,7 @@ For this practice scenario, the feature is: **an AI voice chat interface for man
 Go ahead and @ mention those three files (company context, socratic method, and template) and tell me the basic feature idea (AI voice chat with to-do list).
 
 It should be something like this: 
-**Please help me fill out my prd template @Lennys-PRD-Template.md for an AI voice chat interface for manaing a to-do list. Use @taskflow-company-context.md and guide me through the process using @socratic-questioning.md. My ideas are [your ideas]**"
+**Please help me fill out my prd template @prd-templates/Lennys-PRD-Template.md for an AI voice chat interface for manaing a to-do list. Use @taskflow-company-context.md and guide me through the process using @socratic-questioning.md. My ideas are [your ideas]**"
 
 **STOP: Ask user to @ mention the three files and state the feature idea**
 
@@ -485,7 +485,7 @@ After making updates:
 
 Save the refined version to `ai-chat-todo-prd-final.md`
 
-"Done! Your production-ready PRD is in `ai-chat-todo-prd-final.md`.
+"Done! Your production-ready PRD is in [ai-chat-todo-prd-final.md](ai-chat-todo-prd-final.md).
 
 Let me wrap up with what we just did..."
 
@@ -501,7 +501,7 @@ Let me wrap up with what we just did..."
 
 Save the chosen version as `ai-chat-todo-prd-final.md`
 
-"I've saved your final PRD to `ai-chat-todo-prd-final.md`.
+"I've saved your final PRD to [ai-chat-todo-prd-final.md](ai-chat-todo-prd-final.md).
 
 Let me recap what we just accomplished..."
 
@@ -628,7 +628,7 @@ Module 2.1 is successful if the student:
 **Remember: This module teaches a collaborative workflow, not just PRD writing. The student should feel like they're thinking WITH you, not watching you work.**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

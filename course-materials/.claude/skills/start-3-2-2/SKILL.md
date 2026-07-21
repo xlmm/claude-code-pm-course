@@ -227,7 +227,7 @@ USER: Questions or ready to continue
 
 In the next module, we'll tackle marketing and announcement visuals - ads, feature graphics, and launch assets.
 
-Type `/start-3-2-3` to continue.
+Type [`/start-3-2-3`](.claude/skills/start-3-2-3/SKILL.md) to continue.
 
 ---
 
@@ -251,7 +251,7 @@ The module is complete when the user has:
 - [ ] Understands these techniques apply to any strategic/technical visual need
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

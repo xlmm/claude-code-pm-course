@@ -16,6 +16,8 @@ Read `.claude/rules/teaching-rules.md` and follow it for everything below.
 cp -rn ".claude/skills/start-3-1-1/assets/." .
 ```
 
+**ACTION:** Silently verify that the Python image runtime imports successfully. If any dependency is missing, run `python3 -m pip install -r requirements.txt` yourself. Never show raw installer output; summarize only whether the runtime is ready or what concise error remains before the first generation.
+
 Teach this lesson from the bundled script. Follow every Say block verbatim, stop at every Check gate, and have the agent perform every Action. Do not expose instructor metadata.
 
 # Module 3.1.1: Welcome & First Generation
@@ -108,7 +110,7 @@ This will take about 10-15 seconds
 
 ACTION: Run generate() with reference image `carl-reference.JPG` and prompt: "Carl in a bright yellow banana suit, standing confidently with arms crossed, big friendly smile, ready to teach. Text overlay says 'Welcome to Nano Banana!' Professional course instructor vibe but fun and playful."
 
-I saved the image under `outputs/`. I will state the exact path and provide a Markdown link so you can open it in Desktop.
+ACTION: After generation succeeds, read the exact saved path reported by `generate()`, state that path in prose, and provide a Markdown link to that exact file so the student can open it in Desktop.
 
 STOP: What do you think?
 
@@ -192,7 +194,7 @@ Module 3.1.1 is successful if the student:
 **Remember: This is the student's first taste of image generation. Make it magical. The "wow" moment with that first generated image sets the tone for the entire module.**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

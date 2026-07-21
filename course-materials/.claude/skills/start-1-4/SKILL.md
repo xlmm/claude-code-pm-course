@@ -585,7 +585,7 @@ If they seem confused about any concept, slow down and clarify with examples bef
 **Remember: This is the game-changer module. Make them FEEL the power. Show them what's possible. Build energy and excitement. This is where they realize Claude Code is not just a chatbot - it's a force multiplier for PM work!** ⚡
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

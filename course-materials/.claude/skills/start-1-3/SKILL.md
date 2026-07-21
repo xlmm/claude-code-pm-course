@@ -235,9 +235,9 @@ I can:
 2. Identify common pain points (mentioned by 3+ users)
 3. Extract direct quotes supporting each pain point
 4. Identify feature requests
-5. Create a research synthesis document
+5. Create a research synthesis document"
 
-STOP: Ask use to put in the command "Analyze all the user interviews in @user-interviews and create a summary document highlighting overall findings and themes."
+**STOP:** Ask the user to enter: "Analyze all the user interviews in @user-interviews and create a summary document highlighting overall findings and themes."
 
 **Check:** Wait for student to enter command
 
@@ -677,7 +677,7 @@ If they seem confused about any of these, slow down and clarify before moving on
 **Remember: You're teaching real PM skills that save real time. Make it practical, make it realistic, and make them feel like they're already becoming more productive!**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

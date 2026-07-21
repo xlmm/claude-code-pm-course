@@ -75,9 +75,9 @@ ACTION: First call new_session() to clear any previous session (in case user is 
 
 [Make a fun/enthusiastic comment about the generated image]
 
-I saved the image under `outputs/` and will state the exact path with a Markdown link.
+ACTION: Read the exact saved path reported by the generation, state that path in prose, and provide a Markdown link to that exact file.
 
-STOP: I saved the image under `outputs/` and will state its exact path. Open the path from the Desktop project tree. What do you think?
+STOP: Open the linked image from the Desktop project tree. What do you think?
 
 USER: [Responds with their reaction]
 
@@ -95,7 +95,7 @@ USER: [Describes a change they want]
 
 ACTION: Generate a refined version based on their feedback (this continues the existing session)
 
-I will state each exact saved path under `outputs/` and provide a Markdown link. Open it from the Desktop project tree.
+ACTION: Read the refined generation's exact saved path, state that path in prose, and provide a Markdown link to that exact file. Ask the student to open the linked image from the Desktop project tree.
 
 STOP: Better? Want to tweak something else? Or shall we continue?
 
@@ -195,7 +195,7 @@ Module 3.1.2 is successful if the student:
 - ✅ Knows how to continue to the next lesson
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

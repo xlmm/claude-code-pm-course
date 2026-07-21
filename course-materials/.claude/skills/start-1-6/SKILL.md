@@ -97,7 +97,7 @@ You now understand the verified loading locations, how to structure reusable pro
 
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm
@@ -118,4 +118,4 @@ PY
 fi
 ```
 
-**Next lesson:** [`/start-1-7`](.claude/skills/start-1-7/SKILL.md)
+**Next lesson:** Type `/start-1-7` in the composer.

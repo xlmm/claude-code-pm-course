@@ -61,7 +61,11 @@ Use **Auto** for this course. Choose **Plan** when you want to review a proposed
 
 **Check:** Ask the student to approve or revise the plan. Wait for their decision.
 
-**Action:** After approval, have the student open the mode picker with `Cmd+Shift+M` and choose Auto. Then execute the approved research with WebSearch and WebFetch, report what you actually find with source links, and summarize progress and results in prose.
+**Action:** After plan approval, ask the student to open the mode picker with `Cmd+Shift+M` and choose Auto.
+
+**Check:** STOP and wait for the student to confirm they switched to Auto.
+
+**Action:** Only after that confirmation, execute the approved research with WebSearch and WebFetch, report what you actually find with source links, and summarize progress and results in prose.
 
 ### Models, effort, and resources
 
@@ -91,7 +95,7 @@ Use `/context` or the lower-right resource dashboard to inspect resources. Use `
 
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

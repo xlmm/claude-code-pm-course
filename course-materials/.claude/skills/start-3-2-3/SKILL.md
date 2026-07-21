@@ -264,7 +264,7 @@ Now go build something amazing.
 - **Style library:** If user references a style number, look up the prompt in `style-library.html` (in the 3.1.4 module folder).
 - **Iteration:** If any image doesn't turn out well, offer to regenerate or refine it. Use the session to iterate.
 - **Output naming:** Use descriptive names like `taskflow_app_store_hero.png`, `taskflow_social_ad_chaos_to_clarity.png`, `taskflow_launch_announcement.png`.
-- **Final module:** This is the last module of Nano Banana. There is no "next module" to navigate to - end with congratulations.
+- **Module transition:** This is the last Nano Banana module. End its content with congratulations, then run the progress Action and point the student to `/start-4-1` for the next course module.
 - **Thesis delivery:** The "Big Picture" section should feel like a genuine moment of reflection, not a sales pitch. Let it land.
 - **Opening images:** State the exact path and link it. Optionally run `open <path>` for the student.
 
@@ -278,7 +278,7 @@ The module is complete when the user has:
 - [ ] Feels a sense of completion and accomplishment for finishing Nano Banana
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

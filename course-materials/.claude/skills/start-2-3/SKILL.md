@@ -117,7 +117,7 @@ Display key sections from `frameworks/rumelt-strategy-kernel.md`:
 - Sequenced roadmap with clear dependencies
 - Resources focused on the strategy
 
-The framework guide is in `frameworks/rumelt-strategy-kernel.md` if you want to read more later.
+The framework guide is in [rumelt-strategy-kernel.md](frameworks/rumelt-strategy-kernel.md) if you want to read more later.
 
 For now, let's set up your strategic situation."
 
@@ -385,7 +385,7 @@ Make this feel like THEIR strategy - use their language from choices, reference 
 
 **Present it like this:**
 
-"Done! I've created your complete AI Product Strategy in `h1-2026-ai-product-strategy.md`.
+"Done! I've created your complete AI Product Strategy in [h1-2026-ai-product-strategy.md](h1-2026-ai-product-strategy.md).
 
 Here's what your 5 strategic choices became:
 
@@ -461,9 +461,9 @@ The pptx skill will read the strategy markdown file and generate a complete Powe
 
 **Present it like this:**
 
-"Done! I've created your executive slide deck: `strategy-review-slides.pptx`
+"Done! I've created your executive slide deck: [strategy-review-slides.pptx](strategy-review-slides.pptx)
 
-Find `strategy-review-slides.pptx` in the Desktop project tree. Open the Markdown source here: [h1-2026-ai-product-strategy.md](h1-2026-ai-product-strategy.md). Use PowerPoint, Google Slides, or Keynote for the `.pptx`.
+Find [strategy-review-slides.pptx](strategy-review-slides.pptx) in the Desktop project tree. Open the Markdown source here: [h1-2026-ai-product-strategy.md](h1-2026-ai-product-strategy.md). Use PowerPoint, Google Slides, or Keynote for the `.pptx`.
 
 Here's what the pptx skill generated:
 
@@ -482,7 +482,7 @@ Here's what the pptx skill generated:
 12. **Risks & Mitigation** - Table with risk level and mitigation strategies
 13. **The Ask** - What we need from leadership
 
-The pptx skill pulled content directly from your strategy document and formatted it as a professional PowerPoint deck with charts, tables, timelines, and visual diagrams. You can open `strategy-review-slides.pptx` in PowerPoint, Google Slides, or Keynote and present it to your CEO.
+The pptx skill pulled content directly from your strategy document and formatted it as a professional PowerPoint deck with charts, tables, timelines, and visual diagrams. You can open [strategy-review-slides.pptx](strategy-review-slides.pptx) in PowerPoint, Google Slides, or Keynote and present it to your CEO.
 
 There are more skills like this, and you can build your own. Skills are reusable transformations and workflows.
 
@@ -524,8 +524,8 @@ This is exactly how the best PMs use AI for strategy - as a thinking partner, no
 
 Want to go deeper on strategy? Check out these frameworks in your `frameworks/` folder:
 
-- **`swot-analysis.md`** - Analyze your Strengths, Weaknesses, Opportunities, Threats to identify strategic options
-- **`gibson-biddle-dhm.md`** - Score your strategy on Delight, Hard to Copy, Margin-enhancing (from Netflix's VP Product)
+- **[swot-analysis.md](frameworks/swot-analysis.md)** - Analyze your Strengths, Weaknesses, Opportunities, Threats to identify strategic options
+- **[gibson-biddle-dhm.md](frameworks/gibson-biddle-dhm.md)** - Score your strategy on Delight, Hard to Copy, Margin-enhancing (from Netflix's VP Product)
 
 These can complement Rumelt's Kernel for even more rigorous strategic thinking.
 
@@ -624,7 +624,7 @@ Module 2.3 is successful if the student:
 **Remember: This module teaches that AI augments strategic thinking but doesn't replace strategic judgment. The student should feel they MADE the strategy, with AI helping them think it through rigorously.**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

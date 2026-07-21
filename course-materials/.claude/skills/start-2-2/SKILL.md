@@ -367,7 +367,7 @@ Use this data to build the impact model, then create `guided-onboarding-impact-e
 - Year 1: $39k / $100k = 0.39x (not profitable yet)
 - 3-year LTV: $943k / $100k = 9.4x ROI 🎯
 
-I've created `guided-onboarding-impact-estimate.md` with the full analysis."
+I've created [guided-onboarding-impact-estimate.md](guided-onboarding-impact-estimate.md) with the full analysis."
 
 **STOP: Does that ROI seem good enough to justify building this?**
 
@@ -450,7 +450,7 @@ Include note about retention multiplier: activated users stay 2.5x longer (histo
 
 **Plus strategic value:** We can't scale if activation stays at 45%. This unblocks growth.
 
-I've saved all three scenarios to `guided-onboarding-roi-scenarios.md` for you.
+I've saved all three scenarios to [guided-onboarding-roi-scenarios.md](guided-onboarding-roi-scenarios.md) for you.
 
 This is the kind of analysis you'd present to leadership. Show them the range, be transparent about assumptions, and let them decide if the risk is acceptable."
 
@@ -968,7 +968,7 @@ Module 2.2 is successful if the student:
 **Remember: This module teaches the complete PM workflow for data-driven decisions. It's one of the most practical skills in the entire course. Help students see how they'll use this in their real PM work every single week.**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

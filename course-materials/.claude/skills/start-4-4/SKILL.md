@@ -80,7 +80,11 @@ ACTION: Verify with `gh auth status`. Report success or a concise error summary 
 
 Now let's save your code to GitHub. I'll make it private by default so only you can see it.
 
-ACTION: Run the following commands yourself in order. Summarize the outcome in prose:
+STOP: Ready for me to save this privately to your GitHub?
+
+USER: Yes
+
+ACTION: Only after the student's yes, run the following commands yourself in order. Summarize the outcome in prose:
 
 1. Navigate to the quiz-project folder:
 ```
@@ -157,7 +161,7 @@ USER: Let's go
 - User understands they can ask to "push to GitHub" to save future changes
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

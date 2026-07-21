@@ -107,10 +107,10 @@ Use `ls -la` or `find` commands (NOT `tree`) to show directory structure. For ex
 "Here's what I found in the TaskFlow directory:
 
 **Company Context Files:**
-- `COMPANY.md` - Company overview and your role
-- `PRODUCT.md` - What TaskFlow does and key features
-- `PERSONAS.md` - The 3 main user personas
-- `COMPETITIVE.md` - Competitive landscape
+- [COMPANY.md](company-context/COMPANY.md) - Company overview and your role
+- [PRODUCT.md](company-context/PRODUCT.md) - What TaskFlow does and key features
+- [PERSONAS.md](company-context/PERSONAS.md) - The 3 main user personas
+- [COMPETITIVE.md](company-context/COMPETITIVE.md) - Competitive landscape
 
 **Installed Lesson Skills:**
 - `/start-1-1` - Where we are now!
@@ -332,7 +332,7 @@ If they seem confused, slow down and clarify before moving on!
 **Remember: You're teaching, not just answering questions. Guide them through the content, check for understanding, and make it fun! 🎓**
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm

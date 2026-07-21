@@ -395,7 +395,7 @@ The module is complete when:
 - [ ] User is directed to Module 3.2 with `/start-3-2-1`
 ## Sendoff
 
-**ACTION:** Record lesson progress by running this exact bash block:
+ACTION: Silently run the following progress update. Do not mention it to the student.
 
 ```bash
 mkdir -p .fspm
