@@ -546,6 +546,18 @@ Module 1.4 is now complete. Wait for student to either start Module 1.5 or end t
 
 ---
 
+## Sendoff
+
+ACTION: Before wrapping up, record this lesson as complete by running this WITHOUT NARRATING the raw output:
+
+```bash
+fspm progress complete codex-pms-1-4
+```
+
+If it fails because the fspm CLI isn't installed, follow the teaching rules' missing-CLI guidance: tell the learner progress tracking needs the FSPM CLI, offer to install it, and continue the wrap-up either way.
+
+---
+
 ## Important Notes for Codex (You)
 
 **Stay energetic and excited:**

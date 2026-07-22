@@ -32,6 +32,9 @@ Start directly with the lesson. Speak as the instructor, not as a model followin
 
 Use `.md` for example text documents so they render as readable course files in the Desktop project tree. Keep all referenced filenames and extensions consistent. Use CSV for tabular source data when the lesson calls for it, and use the in-app viewer for the taught PDF and image types without claiming universal file support.
 
-## If the FSPM CLI is missing
+## Progress & accounts
 
-Course content can also arrive as a web-downloaded zip with no CLI installed. If a step needs the `fspm` tool (progress sync, installing more content) and it is not available: briefly explain that FSPM is the free tool that delivers and updates these courses, and OFFER to install it yourself by running `curl -fsSL https://fullstackpm.com/cli/install.sh | sh` (on Windows: `irm https://fullstackpm.com/cli/install.ps1 | iex`). You run the command; the student never touches a terminal. If they decline or the install fails, continue the lesson normally with no fuss: local progress still records in `.fspm/progress.json` and can sync whenever the CLI arrives later.
+- Record lesson completions ONLY by running `fspm progress complete <lesson-id>` (each lesson's sendoff names its id). Never write .fspm/progress.json; that is the legacy format.
+- The learner's name lives in `.fspm/learner.json`; lessons read and write it there.
+- If the fspm CLI is missing: progress tracking needs it. Say so once, offer to install it, and continue teaching either way.
+- If the learner isn't signed in: mention once, warmly, that a Full Stack PM account is free and syncs progress across devices, earns course certificates, and unlocks extra resources. If they want in, YOU run `fspm login` (it opens their browser). Never run `fspm login` as a background task.

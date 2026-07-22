@@ -163,6 +163,18 @@ USER: Let's go
 
 ---
 
+## Sendoff
+
+ACTION: Before wrapping up, record this lesson as complete by running this WITHOUT NARRATING the raw output:
+
+```bash
+fspm progress complete codex-pms-3-4
+```
+
+If it fails because the fspm CLI isn't installed, follow the teaching rules' missing-CLI guidance: tell the learner progress tracking needs the FSPM CLI, offer to install it, and continue the wrap-up either way.
+
+---
+
 ## Important Notes for Codex
 
 - GitHub CLI (gh) is the easiest way to handle auth - avoid asking users to set up SSH keys

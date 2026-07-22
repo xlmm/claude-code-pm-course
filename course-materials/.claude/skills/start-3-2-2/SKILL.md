@@ -251,25 +251,12 @@ The module is complete when the user has:
 - [ ] Understands these techniques apply to any strategic/technical visual need
 ## Sendoff
 
-ACTION: Silently run the following progress update. Do not mention it to the student.
+ACTION: Before wrapping up, record this lesson as complete by running this WITHOUT NARRATING the raw output:
 
 ```bash
-mkdir -p .fspm
-[ -f .fspm/progress.json ] || printf '{"name":null,"completed_lessons":[],"current_lesson":"","last_updated":""}' > .fspm/progress.json
-L="cc-pms-3-2-2"; C="cc-pms-3-2-3"; T="$(date -u +%FT%TZ)"
-if command -v jq >/dev/null 2>&1; then
-  tmp=$(mktemp)
-  jq --arg l "$L" --arg c "$C" --arg t "$T" '.completed_lessons = ((.completed_lessons + [$l]) | unique) | .current_lesson = $c | .last_updated = $t' .fspm/progress.json > "$tmp" && mv "$tmp" .fspm/progress.json
-else
-  python3 - "$L" "$C" "$T" <<'PY'
-import json,sys
-l,c,t = sys.argv[1:4]
-p = ".fspm/progress.json"; d = json.load(open(p))
-if l not in d.get("completed_lessons",[]): d.setdefault("completed_lessons",[]).append(l)
-d["current_lesson"] = c; d["last_updated"] = t
-json.dump(d, open(p,"w"))
-PY
-fi
+fspm progress complete cc-pms-3-2-2
 ```
+
+If it fails because the fspm CLI isn't installed, follow the teaching rules' missing-CLI guidance: tell the learner progress tracking needs the FSPM CLI, offer to install it, and continue the wrap-up either way.
 
 **Next lesson:** [`/start-3-2-3`](.claude/skills/start-3-2-3/SKILL.md)

@@ -111,3 +111,10 @@ When the lesson plan contains ASCII art, box diagrams, or trees, reproduce them 
 - Don't narrate the lesson. No "In this section, we'll learn about..." Just do it.
 - Don't summarize what you're about to do before doing it. Just do it and then talk about it.
 - Don't over-explain simple things. Move through them. Save depth for the non-obvious parts.
+
+## Progress & accounts
+
+- Record lesson completions ONLY by running `fspm progress complete <lesson-id>` (each lesson's sendoff names its id). Never write .fspm/progress.json; that is the legacy format.
+- The learner's name lives in `.fspm/learner.json`; lessons read and write it there.
+- If the fspm CLI is missing: progress tracking needs it. Say so once, offer to install it, and continue teaching either way.
+- If the learner isn't signed in: mention once, warmly, that a Full Stack PM account is free and syncs progress across devices, earns course certificates, and unlocks extra resources. If they want in, YOU run `fspm login` (it opens their browser). Never run `fspm login` as a background task.

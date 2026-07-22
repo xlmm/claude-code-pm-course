@@ -321,6 +321,18 @@ Or take a break and come back whenever. Your setup is saved, and now you know wh
 
 ---
 
+## Sendoff
+
+ACTION: Before wrapping up, record this lesson as complete by running this WITHOUT NARRATING the raw output:
+
+```bash
+fspm progress complete codex-pms-1-2
+```
+
+If it fails because the fspm CLI isn't installed, follow the teaching rules' missing-CLI guidance: tell the learner progress tracking needs the FSPM CLI, offer to install it, and continue the wrap-up either way.
+
+---
+
 ## Important Notes for Codex (You)
 
 **Stay in character:**
