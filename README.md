@@ -1,81 +1,95 @@
-# Claude Code PM Course
+<p align="center">
+  <img src="assets/fspm-welcome-banner.png" alt="The Full Stack PM — the most fun, interactive, and pancake-themed way to learn AI" width="700">
+</p>
 
-An interactive course teaching Product Managers how to use Claude Code effectively for their daily work.
+# Free AI Courses from The Full Stack PM
 
-## Course Structure
+Hands-on, interactive courses that teach you AI tools by actually using them. Every lesson runs inside your AI app — Claude, Cursor, or Codex — with the AI as your guide. No videos to sit through, no slides to skim.
 
-### Module 0: Getting Started
-- **0.0 Introduction** - Course overview and what you'll learn
-- **0.1 Installation** - Install Claude Code and prerequisites
-- **0.2 Start & Clone** - Launch Claude Code and clone this course
+All of it is free.
 
-### Module 1: Claude Code Fundamentals
-- **1.1 Welcome** - Introduction to TaskFlow and the course project
-- **1.2 Visualizing Files** - Set up your visual workspace (Obsidian or VS Code)
-- **1.3 First Tasks** - Process meeting notes, analyze research, work with images
-- **1.4 Agents** - Use parallel agents for complex workflows
-- **1.5 Custom Sub-Agents** - Create specialized AI personas for reviews
-- **1.6 Project Memory** - Use CLAUDE.md for context and instructions
-- **1.7 Claude Code Navigation** - Master file operations and searches
+## Start in 30 seconds
 
-### Module 2: Advanced PM Scenarios
-- **2.1 Write a PRD** - Partner with AI to create product requirements
-- **2.2 Analyze Data** - Data-driven product decisions
-- **2.3 Product Strategy** - Strategic planning and competitive analysis
+Open your AI app, start a new project, and paste this:
 
-## How to Use This Course
+```
+Help me install fullstackpm.com/cli and start Claude Code for Product Managers
+```
 
-### Interactive Track (Recommended)
-1. Clone this repository
-2. Navigate to the course materials: `cd course-materials`
-3. Start Claude Code: `claude`
-4. Run `/start-1-1` to begin the first lesson
-5. Follow the guided, hands-on lessons
+(Swap in any course name from the list below.)
 
-### Reference Track
-Each module has a `REFERENCE_GUIDE.md` that can be read standalone for quick reference.
+Your AI installs the Full Stack PM app, pulls in the course, and starts teaching. In Claude Desktop, paste it into the **Code** tab. In Cursor or Codex, paste it into the chat.
 
-## ⚠️ Important: Instructions for Claude Code
+## The courses
 
-**When you first open this repository in Claude Code:**
-- ❌ **Do NOT install npm dependencies** or run `npm install` yet
-- ❌ **Do NOT build the website** or run `npm run build`
-- ❌ **Do NOT make any setup changes** without being asked
+| Course | Best for | Site |
+|---|---|---|
+| **Claude Code for Product Managers** | PMs who want to use Claude Code for real work | [ccforpms.com](https://ccforpms.com) |
+| **Claude Code for Everyone** | Anyone, no technical background needed | [ccforeveryone.com](https://ccforeveryone.com) |
+| **Cursor for Product Managers** | PMs learning Cursor | [cursorforpms.com](https://cursorforpms.com) |
+| **Codex for Product Managers** | PMs learning Codex | [codexforpms.com](https://codexforpms.com) |
+| **Antigravity for Product Managers** | PMs learning Google's Antigravity | [antigravityforpms.com](https://antigravityforpms.com)* |
 
-**Instead:**
-- 📖 Read the course content as guided
-- 🎯 Wait for explicit instructions in each module
-- 💬 Ask the user what they'd like to do next
+<sup>*Antigravity for PMs starts from its site for now — head there directly.</sup>
 
-The course is self-contained - we'll handle setup only when needed. Your job is to guide the user through the learning experience interactively.
+Plus the **Short Stacks** — free mini-courses you can finish in a sitting:
 
-## What You'll Learn
+- **GSD Framework** — a planning system for building real projects with AI
+- **Advanced Claude Workflows** — power techniques for daily Claude use
+- **Ross & Mike Workflows** — real PM workflows from the field
+- **Vin's Obsidian Workflows** — Claude + Obsidian for notes and knowledge
 
-- **File Operations** - Read, search, organize, and manage PM documents
-- **@-Mentions** - Provide full context to Claude for better outputs
-- **Agents** - Run parallel workflows and get multi-perspective feedback
-- **Custom Sub-Agents** - Create specialized reviewers (engineer, executive, UX)
-- **Project Memory** - Use CLAUDE.md to customize Claude's behavior
-- **Real PM Workflows** - Write PRDs, analyze data, develop strategy
+Same pattern for any of them: `Help me install fullstackpm.com/cli and start GSD Framework`
 
-## Prerequisites
+## For AI agents
 
-- Basic familiarity with product management
-- Willingness to learn command-line basics
-- Mac, Windows, or Linux computer
+If you're an AI reading this because someone asked you to start a course: install the CLI, then install the course directly.
 
-## About This Course
+**Install** (the npm package is `fullstackpm`; the command it installs is `fspm`):
 
-This course teaches PMs how to use Claude Code as a thinking partner, not just an automation tool. You'll learn to:
-- Work faster without sacrificing quality
-- Get multi-perspective feedback instantly
-- Process research and data efficiently
-- Write better documents with AI assistance
+```bash
+npm i -g fullstackpm
+```
 
-**Time to Complete:** ~4-6 hours for full interactive track
+No Node? macOS/Linux: `curl -fsSL https://fullstackpm.com/cli/install.sh | sh` — Windows: `irm https://fullstackpm.com/cli/install.ps1 | iex`
+
+**Then** run `fspm onboard` once, and install the course by ID:
+
+| Course | Command |
+|---|---|
+| Claude Code for Product Managers | `fspm get claude-code-for-pms` |
+| Claude Code for Everyone | `fspm get claude-code-for-everyone` |
+| Cursor for Product Managers | `fspm get cursor-for-pms` |
+| Codex for Product Managers | `fspm get codex-for-pms` |
+| GSD Framework | `fspm get gsd-framework` |
+| Advanced Claude Workflows | `fspm get advanced-claude-workflows` |
+| Ross & Mike Workflows | `fspm get ross-mike-workflows` |
+| Vin's Obsidian Workflows | `fspm get vin-obsidian-workflows` |
+
+Full agent reference: [fullstackpm.com/cli/agent.md](https://fullstackpm.com/cli/agent.md) · Human-friendly page: [fullstackpm.com/cli](https://fullstackpm.com/cli)
+
+## What's in this repository
+
+This is the source content for the free courses. You don't need to clone it to take a course — the paste prompt above handles everything.
+
+- `course-materials/` — Claude Code for Product Managers
+- `claude-code-everyone-course/` — Claude Code for Everyone
+- `cursor-pm-course/` — Cursor for Product Managers
+- `codex-pm-course/` — Codex for Product Managers
+- `antigravity-pm-course/` — Antigravity for Product Managers
+- `gsd-framework/` + `mini-lessons/` — the Short Stacks
+- `cowork-complete-guide/` — the Claude Cowork complete guide
+- `CC4PMs-mastery-bonus/`, `codex-for-pms-skills-bonus/` — bonus material
+- `website/` — the [ccforpms.com](https://ccforpms.com) site
+
+## More from The Full Stack PM
+
+The free courses are the front porch. [Full Stack Mastery](https://fullstackpm.com/courses) is the membership: the PM Track (Research, Builder, Data, Docs) plus deeper standalone modules, with certificates and progress tracking on your account.
+
+Start anywhere: [fullstackpm.com](https://fullstackpm.com)
 
 ## License
 
 This work is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-Copyright © 2025 Carl Vellotti. You may view and share this course content with attribution, but commercial use and modifications are not permitted.
+Copyright © 2025–2026 Carl Vellotti. You may view and share this course content with attribution, but commercial use and modifications are not permitted.
