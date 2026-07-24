@@ -235,7 +235,7 @@ export default function DownloadGate() {
                   <button type="button" className="gate-copy-again" onClick={handleCopyFromSuccess}>
                     {successCopied ? 'Copy again' : 'Copy the prompt'}
                   </button>
-                  <p className="gate-success-note">Paste it into Claude to start the course.</p>
+                  <p className="gate-success-note">Paste it into a new project in the Claude Desktop app to start the course.</p>
                 </>
               ) : (
                 <h3>Your download is starting!</h3>
