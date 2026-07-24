@@ -53,7 +53,7 @@ def fix_frontmatter(file_path):
     return True
 
 # Process all MDX files
-pages_dir = Path('/Users/carl/claude-code-pm-course/website/pages')
+pages_dir = Path('/Users/carl/free-ai-courses/website/pages')
 mdx_files = list(pages_dir.rglob('*.mdx'))
 
 print(f"Found {len(mdx_files)} MDX files")

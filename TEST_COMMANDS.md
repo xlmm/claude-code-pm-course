@@ -44,7 +44,7 @@ cd ~/Documents && rm -rf fspm-test
 
 ```bash
 cd ~/Documents && \
-curl -L https://github.com/carlvellotti/claude-code-pm-course/releases/download/nano-banana-test-v1/complete-course.zip -o test-course.zip && \
+curl -L https://github.com/carlvellotti/free-ai-courses/releases/download/nano-banana-test-v1/complete-course.zip -o test-course.zip && \
 unzip test-course.zip -d test-course && \
 cd test-course && \
 claude

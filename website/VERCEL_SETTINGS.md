@@ -6,7 +6,7 @@ When importing the project on Vercel, use these EXACT settings:
 
 ### Project Settings
 ```
-Project Name: claude-code-pm-course (or whatever you prefer)
+Project Name: free-ai-courses (or whatever you prefer)
 ```
 
 ### Build & Development Settings
@@ -50,7 +50,7 @@ Look for the error in the build logs. Common issues:
 To test the exact build Vercel will run:
 
 ```bash
-cd /Users/carl/claude-code-pm-course/website
+cd /Users/carl/free-ai-courses/website
 rm -rf .next out node_modules
 npm install
 npm run build

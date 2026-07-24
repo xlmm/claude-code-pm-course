@@ -5,7 +5,7 @@
 
 set -e  # Exit on error
 
-COURSE_ROOT="/Users/carl/claude-code-pm-course"
+COURSE_ROOT="/Users/carl/free-ai-courses"
 WEBSITE_DIR="$COURSE_ROOT/website"
 PAGES_DIR="$WEBSITE_DIR/pages"
 

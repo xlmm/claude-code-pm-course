@@ -30,7 +30,7 @@ npm run build
 
 1. Go to [vercel.com](https://vercel.com) and sign in
 2. Click "Add New Project"
-3. Import the GitHub repository: `carlvellotti/claude-code-pm-course`
+3. Import the GitHub repository: `carlvellotti/free-ai-courses`
 4. Set the Root Directory to `website`
 5. Framework Preset: Next.js
 6. Build Command: `npm run build`
@@ -89,7 +89,7 @@ Content is automatically converted from the main course `lesson-modules/` direct
 ## Links
 
 - **Live Site:** TBD (will be deployed to Vercel)
-- **Course Repository:** https://github.com/carlvellotti/claude-code-pm-course
+- **Course Repository:** https://github.com/carlvellotti/free-ai-courses
 - **Nextra Docs:** https://nextra.site
 - **Pagefind Docs:** https://pagefind.app
 
